@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('transaksi_dana_bos', function (Blueprint $table) {
             $table->id();
-            $table->varchar('dokumen');
+            $table->string('dokumen');
             $table->integer('nominal');
             $table->string('status'); //proses, ditolak, diterima
             $table->timestamps();

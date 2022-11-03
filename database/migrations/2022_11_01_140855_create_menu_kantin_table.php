@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('kategori');
             $table->integer('harga');
             $table->string('status'); //tersedia, tidak tersedia
-            $table->varchar('gambar')->nullable();
+            $table->string('gambar')->nullable();
             $table->timestamps();
         });
     }

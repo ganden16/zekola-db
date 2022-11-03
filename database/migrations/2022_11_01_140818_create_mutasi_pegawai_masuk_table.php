@@ -18,7 +18,7 @@ return new class extends Migration
             $table->foreignId('id_user');
             $table->string('asal');
             $table->date('tanggal');
-            $table->varchar('dokumen');
+            $table->string('dokumen');
             $table->string('status');
             $table->timestamps();
         });

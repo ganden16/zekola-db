@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('nama_nilai'); //uts, uas, tugas1, tugas2, keterampilan, sikap
             $table->foreignId('id_ekstra');
             $table->foreignId('id_siswa');
-            $table->varchar('nilai'); //80, 90, A, B, C, D, E
+            $table->string('nilai'); //80, 90, A, B, C, D, E
             $table->date('tanggal');
             $table->timestamps();
         });

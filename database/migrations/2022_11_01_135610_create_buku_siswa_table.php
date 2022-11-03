@@ -19,7 +19,7 @@ return new class extends Migration
             $table->foreignId('id_kelas');
             $table->integer('kuantitas');
             $table->integer('harga');
-            $table->varchar('gambar')->nullable();
+            $table->string('gambar')->nullable();
             $table->timestamps();
         });
     }

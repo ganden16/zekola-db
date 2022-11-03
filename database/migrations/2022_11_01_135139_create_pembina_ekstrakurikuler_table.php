@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('id_user');
             $table->foreignId('id_ekstra');
-            $table->varchar('nip')->nullable();
+            $table->string('nip')->nullable();
             $table->string('status');
             $table->timestamps();
         });

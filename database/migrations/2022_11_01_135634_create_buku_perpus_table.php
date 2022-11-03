@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('judul');
             $table->string('kategori');
             $table->string('status');
-            $table->varchar('gambar')->nullable();
+            $table->string('gambar')->nullable();
             $table->timestamps();
         });
     }

@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('sekolah_tujuan');
             $table->date('tanggal');
             $table->string('tahun_ajaran');
-            $table->varchar('alasan');
-            $table->varchar('dokumen');
+            $table->string('alasan');
+            $table->string('dokumen');
             $table->string('status');
             $table->timestamps();
         });

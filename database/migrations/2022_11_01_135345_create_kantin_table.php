@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('id_user');
             $table->string('nama_gerai');
-            $table->varchar('gambar')->nullable();
+            $table->string('gambar')->nullable();
             $table->timestamps();
         });
     }

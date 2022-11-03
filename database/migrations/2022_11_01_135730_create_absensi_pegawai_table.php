@@ -19,7 +19,7 @@ return new class extends Migration
             $table->date('tanggal');
             $table->string('status');
             $table->string('keterangan')->nullable();
-            $table->varchar('gambar')->nullable();
+            $table->string('gambar')->nullable();
             $table->timestamps();
         });
     }

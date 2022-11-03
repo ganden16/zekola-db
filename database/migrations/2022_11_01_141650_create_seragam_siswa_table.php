@@ -20,7 +20,7 @@ return new class extends Migration
             $table->integer('kuantitas');
             $table->integer('harga');
             $table->string('status'); //tersedia, tidak tersedia
-            $table->varchar('gambar');
+            $table->string('gambar');
             $table->timestamps();
         });
     }

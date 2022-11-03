@@ -18,7 +18,7 @@ return new class extends Migration
             $table->foreignId('id_kelas');
             $table->string('judul');
             $table->string('deskripsi');    
-            $table->varchar('gambar')->nullable();
+            $table->string('gambar')->nullable();
             $table->timestamps();
         });
     }

@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('tu', function (Blueprint $table) {
             $table->id();
             $table->foreignId('id_user');
-            $table->varchar('nip')->nullable();
+            $table->string('nip')->nullable();
             $table->string('status');
             $table->timestamps();
         });
