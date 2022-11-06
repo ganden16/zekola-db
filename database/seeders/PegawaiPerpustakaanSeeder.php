@@ -16,7 +16,13 @@ class PegawaiPerpustakaanSeeder extends Seeder
     public function run()
     {
         PegawaiPerpustakaan::create([
-            
+            'id_user' => 47,
+            'nip' =>'88888888999999999',
+            'status' => 'aktif'
+        ]);
+        PegawaiPerpustakaan::create([
+            'id_user' => 48,
+            'status' => 'honorer'
         ]);
     }
 }

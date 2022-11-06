@@ -16,7 +16,13 @@ class PegawaiKoperasiSeeder extends Seeder
     public function run()
     {
         PegawaiKoperasi::create([
-            
+            'id_user' => 29,
+            'nip' =>'777777777999999999',
+            'status' => 'aktif'
+        ]);
+        PegawaiKoperasi::create([
+            'id_user' => 30,
+            'status' => 'honorer'
         ]);
     }
 }

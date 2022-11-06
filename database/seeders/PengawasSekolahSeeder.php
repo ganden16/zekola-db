@@ -16,7 +16,12 @@ class PengawasSekolahSeeder extends Seeder
     public function run()
     {
         PengawasSekolah::create([
-            
+            'id_user' => 41,
+            'nip' => '777777777888888888'
+        ]);
+        PengawasSekolah::create([
+            'id_user' => 42,
+            'nip' => '888888888777777777'
         ]);
     }
 }

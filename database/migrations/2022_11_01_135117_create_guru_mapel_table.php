@@ -18,6 +18,7 @@ return new class extends Migration
             $table->foreignId('id_user');
             $table->foreignId('id_mapel');
             $table->string('nip')->nullable();
+            $table->string('status');
             $table->timestamps();
         });
     }

@@ -16,7 +16,8 @@ class KepalaSekolahSeeder extends Seeder
     public function run()
     {
         KepalaSekolah::create([
-            
+            'id_user' => 3,
+            'nip' => '111111111222222222'
         ]);
     }
 }

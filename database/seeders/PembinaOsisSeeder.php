@@ -16,7 +16,8 @@ class PembinaOsisSeeder extends Seeder
     public function run()
     {
         PembinaOsis::create([
-            
+            'id_user' => 24,
+            'nip' => '000000000333333333'
         ]);
     }
 }

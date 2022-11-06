@@ -16,7 +16,12 @@ class RootSeeder extends Seeder
     public function run()
     {
         Root::create([
-            
+            'id_user' => 1,
+            'nip' => '123456789123456789'
+        ]);
+        Root::create([
+            'id_user' => 2,
+            'nip' => '987654321987654321'
         ]);
     }
 }
