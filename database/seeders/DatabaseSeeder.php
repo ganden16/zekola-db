@@ -32,6 +32,14 @@ class DatabaseSeeder extends Seeder
             OsisSeeder::class,
             DinasPendidikanSeeder::class,
             PembinaOsisSeeder::class,
+            KelasSeeder::class,
+            MapelSeeder::class,
+            EkstrakurikulerSeeder::class,
+            BukuSiswaSeeder::class,
+            BukuPerpusSeeder::class,
+            BarangKoperasiSeeder::class,
+            FasilitasSekolahSeeder::class,
+            AbsensiPegawaiSeeder::class,
 
         ]);
     }

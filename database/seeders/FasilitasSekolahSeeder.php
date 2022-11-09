@@ -16,7 +16,16 @@ class FasilitasSekolahSeeder extends Seeder
     public function run()
     {
         FasilitasSekolah::create([
-            
+            'nama' => 'speaker 1',
+            'status' => 'tersedia',
+        ]);
+        FasilitasSekolah::create([
+            'nama' => 'lapangan basket',
+            'status' => 'tersedia',
+        ]);
+        FasilitasSekolah::create([
+            'nama' => 'aula',
+            'status' => 'dipinjam',
         ]);
     }
 }

@@ -16,7 +16,24 @@ class BukuPerpusSeeder extends Seeder
     public function run()
     {
         BukuPerpus::create([
-            
+            'judul' => 'buku1',
+            'kategori' => 'umum',
+            'status' => 'tersedia',
+        ]);
+        BukuPerpus::create([
+            'judul' => 'buku2',
+            'kategori' => 'filsafat',
+            'status' => 'tersedia',
+        ]);
+        BukuPerpus::create([
+            'judul' => 'buku3',
+            'kategori' => 'teknologi',
+            'status' => 'dipinjam',
+        ]);
+        BukuPerpus::create([
+            'judul' => 'buku4',
+            'kategori' => 'sejarah',
+            'status' => 'hilang',
         ]);
     }
 }

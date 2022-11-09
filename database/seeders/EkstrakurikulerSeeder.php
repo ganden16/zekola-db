@@ -16,7 +16,20 @@ class EkstrakurikulerSeeder extends Seeder
     public function run()
     {
         Ekstrakurikuler::create([
-            
+            'nama' => 'Basket',
+            'id_pembina_ekstra' => 1,
+        ]);
+        Ekstrakurikuler::create([
+            'nama' => 'Voli',
+            'id_pembina_ekstra' => 2,
+        ]);
+        Ekstrakurikuler::create([
+            'nama' => 'Renang',
+            'id_pembina_ekstra' => 3,
+        ]);
+        Ekstrakurikuler::create([
+            'nama' => 'Paduan Suara',
+            'id_pembina_ekstra' => 4,
         ]);
     }
 }

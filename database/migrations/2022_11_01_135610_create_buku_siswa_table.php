@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('buku_siswa', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->foreignId('id_kelas');
+            $table->string('kelas');
             $table->integer('kuantitas');
             $table->integer('harga');
             $table->string('gambar')->nullable();

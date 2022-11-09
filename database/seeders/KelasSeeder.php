@@ -16,7 +16,16 @@ class KelasSeeder extends Seeder
     public function run()
     {
         Kelas::create([
-            
+            'nama' =>  'X IPA 1',
+            'id_wali_kelas' => 1,
+        ]);
+        Kelas::create([
+            'nama' =>  'XI IPS 1',
+            'id_wali_kelas' => 2,
+        ]);
+        Kelas::create([
+            'nama' =>  'X BAHASA',
+            'id_wali_kelas' => 3,
         ]);
     }
 }

@@ -16,7 +16,22 @@ class BukuSiswaSeeder extends Seeder
     public function run()
     {
         BukuSiswa::create([
-            
+            'nama' => 'Fisika',
+            'kelas' => 'X IPA',
+            'kuantitas' => 210,
+            'harga' => 30000,
+        ]);
+        BukuSiswa::create([
+            'nama' => 'Ekonomi',
+            'kelas' => 'XI IPS',
+            'kuantitas' => 95,
+            'harga' => 35000,
+        ]);
+        BukuSiswa::create([
+            'nama' => 'Sejarah Sastra',
+            'kelas' => 'X BAHASA',
+            'kuantitas' => 40,
+            'harga' => 40000,
         ]);
     }
 }
